@@ -1,0 +1,205 @@
+body{
+    background-color: #242426;
+    margin: 0;
+}
+/*create a grid*/
+.container{
+    display: grid;
+    grid-template-columns: 4.7rem 10rem 10rem 10rem 10rem 10rem 10rem 10rem 5rem auto;
+    grid-template-rows: 6.8rem 6.3rem 22rem 22rem 22rem 0.9rem 15.25rem;
+    grid-gap: 0.45rem;
+    row-gap: 2rem;
+}
+    .nav-bar{
+        grid-column-start: 2;
+        grid-column-end: 10;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+        .nav-bar{
+            display: flex;
+            align-items: center;
+        }
+        #logo{
+            width: 10%;
+            height: auto;
+            float: left;
+        }
+        li a{
+            font-family: 'Raleway', sans-serif;
+            font-size: 0.875rem;
+            font-weight: 600;
+            color: white;
+            text-decoration: none;
+            border-bottom: 3px solid transparent;
+            text-transform: uppercase;
+        }
+        li a:hover{
+            color: #EDB415;
+        }
+        .nav_links{
+            list-style: none;
+        }
+        .nav_links li{
+            display: inline-block;
+            padding: 0px 1.25rem;
+        }
+        .nav_links li:nth-child(3){
+            display: inline-block;
+            padding: 0 2.5rem 0 1.25rem;
+        }
+        .nav_links li:nth-child(4){
+            padding: 0;
+            border-bottom: 0.1875rem solid #EDB415;
+        }
+        .nav_links li:nth-child(5){
+            padding: 0 1.25rem 0 2.5rem;
+        }
+        .header{
+            display: flex;
+        }
+    .item-1{
+        grid-column-start: 3;
+        grid-column-end: 5;
+        grid-row-start: 2;
+        grid-row-end: 3; 
+    }
+      /* styale header  */
+        h1{
+            font-family: 'Raleway', sans-serif;
+            font-weight: normal;
+            font-size: 3.875rem;
+            color: #EDB415;
+            text-transform: uppercase;
+            margin: 0;
+            padding-left: 0.8rem;
+            text-shadow: 0.3rem 0 #1E647D;
+        }
+        /* position lightbulbs */
+    .item-2{
+        grid-column-start: 5;
+        grid-column-end: 6;
+        grid-row-start: 3;
+        grid-row-end: 4; 
+        
+    }
+        /* position and style text box */
+    .item-3{
+        grid-column-start: 6;
+        grid-column-end: 9;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        background-color: #1E647D;
+        padding: 1rem 0rem 0.5rem 1.7rem;
+        border-radius: 25px 
+    }
+    .item-4{
+        grid-column-start: 3;
+        grid-column-end: 6;
+        grid-row-start: 4;
+        grid-row-end: 5;
+        background-color: #1E647D;
+        padding: 1rem 0rem 0.5rem 1.7rem;
+        border-radius: 25px  
+    }
+    .item-5{
+        grid-column-start: 6;
+        grid-column-end: 7;
+        grid-row-start: 4;
+        grid-row-end: 5;
+        
+    }
+    .item-6{
+        grid-column-start: 5;
+        grid-column-end: 6;
+        grid-row-start: 5;
+        grid-row-end: 6;  
+    }
+    .item-7{
+        grid-column-start: 6;
+        grid-column-end: 9;
+        grid-row-start: 5;
+        grid-row-end: 6;
+        background-color: #1E647D;
+        padding: 1rem 0rem 0.5rem 1.7rem;
+        border-radius: 25px 
+    }
+    /* size lightbulbs */
+        .lightbulb{
+            width: auto;
+            height: 80%;
+            padding:2rem 0 0 6rem;
+        }
+        .lightbulb-2{
+            width: auto;
+            height: 80%;
+            padding: 2rem 0 0 1rem;
+        }
+    /* style review text */
+        h2{
+            font-family: 'Raleway', sans-serif;
+            font-weight: 600;
+            font-size: 1.25rem;
+            color: #EDB415;
+            margin: 0rem;
+            line-height: 250%;
+        }
+        p{
+            font-family: 'Lora', serif;
+            font-weight: 200;
+            font-size: 1.125rem;
+            color: white;
+            line-height: 200%;
+            margin:0;
+            width: 27rem;
+        }
+    /* position footer line */
+    .item-8{
+        grid-column-start: 2;
+        grid-column-end: 10;
+        grid-row-start: 6;
+        grid-row-end: 7; 
+    }
+    /* style footer line */
+        hr{
+            height: 0.2rem;
+            background-color: #969699;
+            border: 0;
+        }
+    /* position footer */
+    .item-9{
+        grid-column-start: 6;
+        grid-column-end: 9;
+        grid-row-start: 7;
+        grid-row-end: 8; 
+    }
+    /* style footer */
+        table{
+            padding-left: 3.5rem;
+        }
+        thead {
+            font-family: 'Raleway', sans-serif;
+            font-weight: 600;
+            font-size: 1.125rem;
+            line-height: 200%;
+            color: #969699;
+            text-align: left;
+            padding-right: 3rem;
+        }
+        tbody td a{
+            font-family: 'Raleway', sans-serif;
+            font-weight: 400;
+            font-size: 0.875rem;
+            line-height: 200%;
+            color: #969699;
+            text-decoration: none;
+            padding-right: 3rem;
+        }
+        td{
+            font-family: 'Raleway', sans-serif;
+            font-weight: 400;
+            font-size: 0.875rem;
+            line-height: 200%;
+            color: #969699;
+            text-decoration: none;
+        }

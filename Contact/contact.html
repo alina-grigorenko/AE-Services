@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <!-- Add title of the website to appear in browser window -->
+        <title>AE Services</title>
+        <!-- Link an icon to appear in the browser window -->
+        <link rel="icon" href="img/browser_icon.png">
+        <!-- Link google fonts -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <!-- Link style sheet -->
+        <link rel="stylesheet" href="style_sheet.css">
+        <!-- Link icons -->
+        <script src="https://kit.fontawesome.com/b51fe6d626.js" crossorigin="anonymous"></script>
+    </head>
+    <body> 
+        <div class="container">
+            <!-- Create a navigation menu at the top of the page -->
+            <div class="nav-bar">
+                <!-- Link logo -->
+                <img id="logo" src="img/logo_2.png">
+                <nav>
+                    <!-- Link to other html pages of the website -->
+                    <ul class="nav_links">
+                        <li><a id="home" href="/Home-page/index.html">home page</a></li>
+                        <li><a id="services" href="../Services/services.html">services</a></li>
+                        <li><a id="schedule" href="../Schedule/schedule.html">schedule</a></li>
+                        <li><a id="reviews" href="../Reviews/reviews.html">reviews</a></li>
+                        <li><a id="contact" href="contact.html">contact us</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <!-- add header -->
+            <div class="item-1">
+                <h1>contact</h1>
+            </div>
+            <!-- add subheading -->
+            <div class="item-2">
+                <!-- add contact form linked to formsubmit.co -->
+                <h2>Any questions or remarks? Just leave us a message.</h2>
+                <form action="https://formsubmit.co/alexeysservice@gmail.com" method="POST">         
+                    <div class="form-group">
+                        <!-- name field -->
+                        <input type="text" id="fullName" name="fullName" placeholder="Enter your name" required><br>
+                    </div>
+                        <!-- email field -->
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required><br>
+                    </div>
+                        <!-- message field -->
+                    <div class="form-group">
+                        <textarea type="text" class="message" name="message" placeholder="How can we help you?" required></textarea><br>
+                    </div>
+                        <!-- submit button -->
+                    <button type="submit">SUBMIT</button>
+                </form>
+            </div>
+            <!-- add links with icons -->
+            <div class="item-3">
+                <i class="fas fa-envelope fa-3x" style="color: #1E647D;
+                    padding: 3rem 0 1rem 10rem;"></i><br>
+                    <a class="email" href="mailto:alexeysservice@gmail.com">alexeysservice@gmail.com</a><br>
+                    <i class="fas fa-phone fa-3x" style="color: #1E647D;
+                    padding: 3rem 0 1rem 10rem;"></i>
+                    <p class="phone">+1-647-464-6647</p>
+            </div>
+            <!-- footer line -->
+            <div class="item-4">
+                <hr>
+            </div>
+            <!-- footer links -->
+            <div class="item-5">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Site Links</th>
+                            <th>Connect with Us</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><a href="/Home-page/index.html">Home Page</a></td>
+                            <td><a href="mailto:alexeysservice@gmail.com"><i class="fas fa-envelope"></i> alexeysservice@gmail.com</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="../Services/services.html">Our Services</a></td>
+                            <td><i id="phone" class="fas fa-phone"></i> +1 647-522-6647</td>
+                        </tr>
+                        <tr>
+                            <td><a href="../Schedule/schedule.html">Schedule</a></td>
+                            <td><a href="https://ca.linkedin.com/"><i class="fab fa-linkedin"></i> Linkedin</a></td> 
+                        </tr>
+                        <tr>
+                            <td><a href="../Reviews/reviews.html">Leave Review</a></td>
+                            <td><a href="https://www.instagram.com/accounts/login/"><i class="fab fa-instagram"></i> Instagram</a></td> 
+                        </tr>
+                        <tr>
+                            <td><a href="contact.html">Contact Us</a></td>
+                            <td><a href="https://www.facebook.com/"><i class="fab fa-facebook"></i> Facebook</a></td> 
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </body>
+</html>
